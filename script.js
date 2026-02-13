@@ -131,7 +131,7 @@ window.addEventListener('scroll', function() {
 function initContactForm() {
     const contactForm = document.getElementById('contactForm');
     const formMessage = document.getElementById('formMessage');
-    const emailRecipient = 'info@schullergepmuhely.hu';
+    const emailRecipient = 'info@schuller-gepmuhely.hu';
     
     if (!contactForm) return;
     
