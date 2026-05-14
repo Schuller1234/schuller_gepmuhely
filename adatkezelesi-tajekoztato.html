@@ -57,6 +57,16 @@
             margin-bottom: 12px;
             margin-left: 60px; /* EZ TOLJA EL A SZÖVEGET BALRÓL */
         }
+        /* EZT HASZNÁLJA A MOBIL (Kisebb behúzás, hogy maradjon hely a szövegnek) */
+        @media (max-width: 600px) {
+            h1, h2, p, li {
+                margin-left: 15px; /* Mobilon csak egy picit toljuk be */
+            }
+            
+            .container {
+                padding: 20px; /* A fehér keret is legyen vékonyabb mobilon */
+            }
+        }
     </style>
 </head>
 <body>
