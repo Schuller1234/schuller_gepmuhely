@@ -539,8 +539,8 @@ body {
 }
 
 .service-icon {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   background: var(--gradient-industrial);
   border-radius: 12px;
   display: flex;
@@ -552,7 +552,7 @@ body {
 }
 
 .service-card:hover .service-icon {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.25) rotate(5deg);
 }
 
 .service-title {
