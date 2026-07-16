@@ -562,9 +562,7 @@ body {
   margin-bottom: 1.5rem;
   transition: transform 0.3s ease;
 }
-.white-icon {
-    filter: brightness(0) invert(1);
-}
+
 .service-card:hover .service-icon {
   transform: scale(1.3) rotate(5deg);
 }
