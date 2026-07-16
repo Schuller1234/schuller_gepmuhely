@@ -519,18 +519,6 @@ body {
    SERVICES
    ========================================== */
 
-/* ÚJ: A lekerekített kék háttérdoboz az ikon köré */
-.icon-box {
-  background-color: #004393;
-  width: 85px;
-  height: 85px;
-  margin: 0 auto 1.5rem auto;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 6px 15px rgba(0, 67, 147, 0.25);
-  transition: transform 0.3s ease;
 }
 .service-card {
   padding: 2.5rem;
