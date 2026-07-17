@@ -519,7 +519,7 @@ body {
    SERVICES
    ========================================== */
 
-}
+
 .service-card {
   padding: 2.5rem;
   background: white;
@@ -536,6 +536,8 @@ body {
   box-shadow: var(--shadow-hover);
   transform: translateY(-8px);
   border-color: var(--primary-light);
+   align-items: center;  
+  text-align: center;   
 }
 
 .service-icon {
@@ -549,6 +551,7 @@ body {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   transition: transform 0.3s ease;
+   object-fit: cover;
 }
 
 .service-card:hover .service-icon {
@@ -567,6 +570,7 @@ body {
   color: var(--muted);
   line-height: 1.7;
   flex-grow: 1;
+   text-align: center;
 }
 
 /* ==========================================
