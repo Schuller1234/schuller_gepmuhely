@@ -436,27 +436,40 @@ body {
    ========================================== */
 .grid-2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
   gap: 3rem;
   align-items: center;
 }
+
 .grid-3 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
   gap: 2rem;
-
 }
-@media (min-width: 768px) {
+
+@media (min-width: 48rem) {
   .grid-2 {
     gap: 4rem;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .grid-3 {
     gap: 2.5rem;
+    grid-template-columns: repeat(6, 1fr);
   }
 
+  .grid-3 > * {
+    grid-column: span 2;
+  }
+
+  .grid-3 > *:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .grid-3 > *:nth-child(5) {
+    grid-column: 4 / span 2;
+  }
 }
 /* ==========================================
    ABOUT SECTION
