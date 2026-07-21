@@ -441,17 +441,10 @@ body {
   align-items: center;
 }
 .grid-3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-    align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 
-}
-.grid-3 > * {
-  flex: 1 1 300px;
-  max-width: 400px;
-  width: 100%;
 }
 @media (min-width: 768px) {
   .grid-2 {
@@ -464,10 +457,6 @@ body {
     gap: 2.5rem;
   }
 
-  .grid-3 > * {
-    flex: 0 1 calc(33.333% - 1.7rem);
-    max-width: none;
-  }
 }
 /* ==========================================
    ABOUT SECTION
