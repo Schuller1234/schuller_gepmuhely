@@ -454,20 +454,20 @@ body {
 }
 
 @media (min-width: 64rem) {
-  .grid-3 {
+  #services .grid-3 {
     gap: 2.5rem;
     grid-template-columns: repeat(6, 1fr);
   }
 
-  .grid-3 > * {
+  #services .grid-3 > * {
     grid-column: span 2;
   }
 
-  .grid-3 > *:nth-child(4) {
+  #services .grid-3 > *:nth-child(4) {
     grid-column: 2 / span 2;
   }
 
-  .grid-3 > *:nth-child(5) {
+  #services .grid-3 > *:nth-child(5) {
     grid-column: 4 / span 2;
   }
 }
